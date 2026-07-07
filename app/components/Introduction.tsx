@@ -108,7 +108,7 @@ export default function Introduction() {
                 <a
                     href="/Kaushik_Reddy_Resume.pdf"
                     download="Kaushik_Reddy_Resume.pdf"
-                    className="inline-flex items-center justify-center space-x-2 bg-green-500 hover:bg-green-600 text-black font-semibold px-3 py-1.5 rounded-md transition-colors duration-200 text-xs sm:text-sm w-auto"
+                    className="inline-flex items-center justify-center space-x-2 bg-[#151515] hover:bg-[#252525] text-white font-semibold px-3 py-1.5 rounded-md transition-colors duration-200 text-xs sm:text-sm w-auto"
                 >
                     <RiDownloadLine className="w-4 h-4" />
                     <span>Resume</span>
