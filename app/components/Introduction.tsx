@@ -88,7 +88,7 @@ export default function Introduction() {
                     <span>Github</span>
                 </a>
                 <a
-                    href="https://www.instagram.com/Juzcallmekaushik"
+                    href="https://www.instagram.com/sincerely.kauu"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center justify-center space-x-2 bg-[#151515] hover:bg-[#252525] text-white px-3 py-1.5 rounded-md transition-colors duration-200 text-xs sm:text-sm w-auto"
