@@ -1,4 +1,4 @@
-import { RiInstagramFill, RiGithubFill, RiDiscordFill } from "@remixicon/react";
+import { RiInstagramFill, RiGithubFill, RiDiscordFill, RiDownloadLine } from "@remixicon/react";
 import Lottie from "lottie-react";
 import { useState, useEffect } from "react";
 
@@ -105,6 +105,14 @@ export default function Introduction() {
                     <RiDiscordFill className="w-4 h-4 text-green-400" />
                     <span>Discord</span>
                 </a>
+                <a
+                    href="/Kaushik_Reddy_Resume.pdf"
+                    download="Kaushik_Reddy_Resume.pdf"
+                    className="inline-flex items-center justify-center space-x-2 bg-green-500 hover:bg-green-600 text-black font-semibold px-3 py-1.5 rounded-md transition-colors duration-200 text-xs sm:text-sm w-auto"
+                >
+                    <RiDownloadLine className="w-4 h-4" />
+                    <span>Resume</span>
+                </a>                
             </div>
         </div>
     );
