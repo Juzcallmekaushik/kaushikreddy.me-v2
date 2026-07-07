@@ -10,17 +10,19 @@ export default function AboutMe() {
                 </h3>
               <div>
                 <div className="text-gray-300 dark:text-gray-300 space-y-8 text-sm md:text-md leading-relaxed">
-                    <div className="w-full space-y-6">
+                  <div className="w-full space-y-6">
                     <p>
-                      Hey, I&apos;m Kaushik Reddy, an 18-year-old graphic designer, programmer, and web developer passionate about blending creativity with code.
+                      Hey, I&apos;m Kaushik Reddy, a 20-year-old full-stack developer and designer who enjoys turning ideas into polished, real-world products. I&apos;m passionate about building software that is both functional and visually engaging.
                     </p>
+                  
                     <p>
-                      Whether it&apos;s crafting clean, intuitive interfaces or building full stack applications, I&apos;m driven by curiosity and a desire to create things that truly make an impact. I believe in pushing boundaries, learning constantly, and sharing what I build with the world.
+                      From designing intuitive user interfaces to developing scalable web applications, I love working across the entire development process. I&apos;m constantly learning, experimenting with new technologies, and challenging myself to build better solutions with every project.
                     </p>
+                  
                     <p>
-                      I&apos;m always excited to take on new challenges and collaborate with others who share a passion for innovation and creativity. This portfolio was made using Remix.
+                      When I&apos;m not coding, you&apos;ll usually find me exploring new technologies, refining personal projects, or contributing to ideas that solve real problems. Thanks for stopping by—I hope you enjoy exploring my work.
                     </p>
-                    </div>
+                  </div>
                 </div>
                 </div>
               </div>
