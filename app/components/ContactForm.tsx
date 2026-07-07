@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { RiInstagramFill, RiGithubFill, RiDiscordFill } from "@remixicon/react";
+import { RiInstagramFill, RiGithubFill, RiDiscordFill, RiDownload2Line } from "@remixicon/react";
 
 const ContactForm: React.FC = () => {
     const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -148,6 +148,14 @@ const ContactForm: React.FC = () => {
                     <RiDiscordFill className="w-4 h-4 text-green-400" />
                     <span>Discord</span>
                 </a>
+                <a
+                    href="/Kaushik_Reddy_Resume.pdf"
+                    download="Kaushik_Reddy_Resume.pdf"
+                    className="inline-flex items-center justify-center space-x-2 bg-[#151515] hover:bg-[#252525] text-white font-semibold px-3 py-1.5 rounded-md transition-colors duration-200 text-xs sm:text-sm w-auto"
+                >
+                    <RiDownload2Line  className="w-4 h-4 text-gree-400" />
+                    <span>Resume</span>
+                </a>                 
             </div>
         </div>
     );
